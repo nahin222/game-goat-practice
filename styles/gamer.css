@@ -92,10 +92,11 @@ body {
 .banner-images{
     margin-top:1.19rem;
     margin-right:14.47rem;
+    margin-bottom:0;
     padding:0px;
     margin-left:4.25rem;
     width: 45rem;
-    height: 42.56rem;
+    height: auto;
     border:2px solid red;
     
     
