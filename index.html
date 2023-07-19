@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gamer</title>
+    <!--adding external css-->
+    <link rel="stylesheet" href="./styles/gamer.css">
+    <!--adding google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700;900&family=Work+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--adding font awesome-->
+    <script src="https://kit.fontawesome.com/a9b01d082b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav></nav>
         <div class="banner">
             <div class="banner-content">
-                <h3>Play Like The</h3>
-                <h3>G.O.A.T.</h3>
-                <p>1-Click instant play</p>
-                <p>No Download</p>
-                <p>1000s of supported online games</p>
-                <button>Sign In</button>
-                <button>Go Rogue</button>
+                <h3 class="banner-title">Play Like The</h3>
+                <h3 class="banner-description">G.O.A.T.</h3>
+                <p class="banner-feature"><i class="fa-solid fa-download"></i>1-Click instant play</p>
+                <p class="banner-feature"><i class="fa-solid fa-download"></i>No Download</p>
+                <p class="banner-feature"><i class="fa-solid fa-download"></i>1000s of supported online games</p>
+                <div class="button-container">
+                    <button class="btn-sign-in">Sign In</button>
+                    <button class="btn-go-rogue">Go Rogue</button>
+                </div>
+                
             </div>
-            <div class="banner-images">
-                <img src="./images/Group 18.png" alt="">
-            </div>
+            <img
+                class="banner-images"
+                src="./images/Group 18.png"
+                alt=""
+            />
         </div>
     </header>
 
